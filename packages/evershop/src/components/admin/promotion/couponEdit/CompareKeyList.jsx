@@ -13,7 +13,7 @@ export const compareKeyList = [
   },
   {
     key: 'sku',
-    label: 'Sku'
+    label: 'Number of Customers'
   },
   {
     key: 'price',

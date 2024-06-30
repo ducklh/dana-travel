@@ -1,9 +1,9 @@
 {
   "shop" : {
-    "currency": "USD",
-    "language": "en",
+    "currency": "VND",
+    "language": "vi",
     "weightUnit": "days",
-    "timezone": "UTC"
+    "timezone": "UTC+7"
   },
   "system": {
     "database": {
@@ -12,6 +12,7 @@
       "database": "evershop",
       "user": "admin",
       "password": "123456"
-    }
+    },
+    "theme": "eve"
   }
 }

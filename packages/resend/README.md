@@ -60,7 +60,7 @@ RESEND_API_KEY=your_api_key
         "templatePath": "config/emails/reset_password.html" // The path to your email template. Starting from the root of your project
       },
       "customer_registered": {
-        "subject": "Welcome to EverShop",
+        "subject": "Welcome to DANA Travel",
         "enabled": true,
         "templatePath": "config/emails/welcome.html" // The path to your email template. Starting from the root of your project
       }
@@ -105,7 +105,7 @@ config
         "templatePath": "config/emails/reset_password.html"
       },
       "customer_registered": {
-        "subject": "Welcome to EverShop",
+        "subject": "Welcome to DANA Travel",
         "enabled": true,
         "templatePath": "config/emails/welcome.html"
       }

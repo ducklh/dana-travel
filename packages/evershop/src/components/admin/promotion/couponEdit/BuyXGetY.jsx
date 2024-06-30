@@ -25,7 +25,7 @@ function SkuSelector({ product, updateProduct }) {
         {product.sku ? (
           <span className="italic">&lsquo;{product.sku}&rsquo;</span>
         ) : (
-          <span>Choose SKU</span>
+          <span>Choose Number of Customers</span>
         )}
       </a>
       {modal.state.showing && (

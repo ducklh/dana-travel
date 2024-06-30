@@ -103,7 +103,7 @@ export function Variants({
               {variantAttributes.map((attribute) => (
                 <th key={attribute.attributeId}>{attribute.attributeName}</th>
               ))}
-              <th>SKU</th>
+              <th>Number of Customers</th>
               <th>Price</th>
               <th>Stock</th>
               <th>Status</th>

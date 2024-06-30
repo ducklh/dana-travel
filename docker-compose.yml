@@ -1,8 +1,27 @@
 version: '3.8'
 
 services:
+  #The postgres database: 
+  database:
+    image: postgres:16
+    container_name: postgres
+    restart: unless-stopped
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - myevershop
+
   app:
-    image: evershop/evershop:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app
     restart: always
     environment:
       DB_HOST: database
@@ -16,21 +35,6 @@ services:
       - database
     ports:
       - 3000:3000
-  
-  #The postgres database: 
-  database:
-    image: postgres:16
-    restart: unless-stopped
-    volumes:
-      - postgres-data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_USER: postgres
-      POSTGRES_DB: postgres
-    ports:
-      - "5432:5432"
-    networks:
-      - myevershop
 
 networks:
   myevershop:

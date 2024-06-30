@@ -16,7 +16,7 @@ module.exports = () => {
         templateId: 'd-4f34caba1e1842739767c7f3d5568f3c21'
       },
       customer_registered: {
-        subject: 'Welcome to Evershop',
+        subject: 'Welcome to DANA Travel',
         enabled: true,
         templateId: 'd-98b1cdc4896c4e759596e6704dcf4a4560'
       }

@@ -27,7 +27,7 @@ export default function Order({ order }) {
                   {item.productName}
                 </div>
                 <div className="order-item-sku italic">
-                  {_('Sku')}: #{item.productSku}
+                  {_('Number of Customers')}: #{item.productSku}
                 </div>
                 <div className="order-item-qty" style={{ fontSize: '0.9em' }}>
                   {item.qty} x {item.productPrice.text}

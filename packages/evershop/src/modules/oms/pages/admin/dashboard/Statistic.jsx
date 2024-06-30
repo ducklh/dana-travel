@@ -43,10 +43,6 @@ export default function SaleStatistic({ api }) {
         title="Sale Statistics"
         actions={[
           {
-            name: 'Daily',
-            onAction: () => setPeriod('daily')
-          },
-          {
             name: 'Weekly',
             onAction: () => setPeriod('weekly')
           },

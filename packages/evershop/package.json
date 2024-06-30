@@ -19,7 +19,6 @@
     "user:changePassword": "evershop user:changePassword",
     "test": "jest"
   },
-  "author": "The Nguyen (https://evershop.io)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "repository": {
     "type": "git",

@@ -6,46 +6,31 @@ export default function FeaturedCategories() {
     <div className="mt-6">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 page-width">
         <div>
-          <div className="text-center">
-            <img src="/assets/homepage/banner/men-shoes.jpeg" alt="" />
-          </div>
-          <h3 className="h4 uppercase mt-4 mb-4">Men shoes collection</h3>
+          <h3 className="h4 uppercase mt-4 mb-4">Tour Packages</h3>
           <div className="mb-4">
             <p>
-              Constructed from luxury nylons, leathers, and custom hardware,
-              featuring sport details such as hidden breathing vents, waterproof
-              + antimicrobial linings, and more.
+              Explore the world with our exclusive tour packages. Enjoy luxury transportation, guided tours, and unforgettable experiences at the best destinations.
             </p>
           </div>
-          <Button url="/tour" title="Shop kids" variant="primary" />
+          <Button url="/tour" title="Explore Tours" variant="primary" />
         </div>
         <div>
-          <div>
-            <img src="/assets/homepage/banner/women-shoes.jpeg" alt="" />
-          </div>
-          <h3 className="h4 uppercase mt-4 mb-4">Women shoes collection</h3>
+          <h3 className="h4 uppercase mt-4 mb-4">Hotel Accommodations</h3>
           <div className="mb-4">
             <p>
-              Constructed from luxury nylons, leathers, and custom hardware,
-              featuring sport details such as hidden breathing vents, waterproof
-              + antimicrobial linings, and more.
+              Stay at the finest hotels with our curated selection of luxury accommodations. Enjoy world-class amenities, comfort, and excellent service at every destination.
             </p>
           </div>
-          <Button url="/hotel" title="Shop women" variant="primary" />
+          <Button url="/hotel" title="Book Hotels" variant="primary" />
         </div>
         <div>
-          <div>
-            <img src="/assets/homepage/banner/kid-shoes.jpeg" alt="" />
-          </div>
-          <h3 className="h4 uppercase mt-4 mb-4">Men shoes collection</h3>
+          <h3 className="h4 uppercase mt-4 mb-4">Professional Tour Guides</h3>
           <div className="mb-4">
             <p>
-              Constructed from luxury nylons, leathers, and custom hardware,
-              featuring sport details such as hidden breathing vents, waterproof
-              + antimicrobial linings, and more.
+              Discover new places with our experienced and knowledgeable tour guides. They will ensure you have an enriching and enjoyable travel experience, providing insights and local knowledge.
             </p>
           </div>
-          <Button url="/tour-guide" title="Shop men" variant="primary" />
+          <Button url="/tour-guide" title="Meet Our Guides" variant="primary" />
         </div>
       </div>
     </div>

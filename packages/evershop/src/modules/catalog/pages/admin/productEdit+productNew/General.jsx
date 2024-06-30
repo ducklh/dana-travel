@@ -14,8 +14,8 @@ function SKUPriceWeight({ sku, price, weight, setting }) {
           id="sku"
           name="sku"
           value={sku}
-          placeholder="SKU"
-          label="SKU"
+          placeholder="Number of Customers"
+          label="Number of Customers"
           type="text"
           validationRules={['notEmpty']}
         />
@@ -37,8 +37,8 @@ function SKUPriceWeight({ sku, price, weight, setting }) {
           id="weight"
           name="weight"
           value={weight?.value}
-          placeholder="Weight"
-          label="Weight"
+          placeholder="Days"
+          label="Days"
           type="text"
           validationRules={['notEmpty']}
           suffix={setting.weightUnit}
